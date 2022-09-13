@@ -13,18 +13,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="displayNone">
-
+    <header class="displayNoneSmall">
+        <ul class="flex listNone headerItems">
+            <li><a href="#"><i class="fa-brands fa-facebook-f white"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter white"></i></a></li>
+            <li><a href="#" class="white">English</a></li>
+            <li><a href="#" class="white">My page</a></li>
+            <li><a href="#" class="white">Logout</a></li>
+        </ul>
     </header>
-    <nav class="flex">
-        <i class="hamburger fa-sharp fa-solid fa-bars fa-2x"></i>
-        <ul class="displayNone">
-            <li>About</li>
-            <li>Program</li>
-            <li>Join</li>
-            <li>Sponsor</li>
-            <li>News</li>
-            <li>REL Campaign</li>
+    <nav class="flex justifySpaceBetween flexAlignCenter">
+        <a href="index.html" class="navLogo displayNoneSmall"><img  src="./img/RSL.png" alt="logo"></a>
+        <i class="displayHideBig hamburger fa-sharp fa-solid fa-bars fa-2x"></i>
+        <ul class="listNone menuList">
+            <li><a class="primary" href="./about.html">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+            <li class="menuBorder"><a class="primary" href="#">REL Campaign</a></li>
         </ul>
     </nav>
     <section>
@@ -36,60 +43,107 @@
     </section>
     <section class="mainProgram">
         <h3 class="program white">Main Program</h3>
-        <div>
-            <div class="programStyle flex">
-                <i class="text-light width20 fa-solid fa-handshake-simple"></i>
-                <p class="flex110 primary fontsize20 fontWeight700">Opening meeting</p>
-                <p class="flex330 white">Listen to the CEO of our league opening meeting</p>
+        <div class="squares">
+            <div class="programStyle flex flexColumn">
+                <i class="text-light width20 fa-solid fa-handshake-simple fa-2x"></i>
+                <p class="flex110 primary fontsize20 fontWeight700 lineHeight15 fs200">Meeting</p>
+                <p class="flex330 white lineHeight15 fs80">Listen to the CEO of our league opening meeting</p>
             </div>
-            <div class="programStyle flex">
-                <i class="width20 fa-solid fa-flag-checkered"></i>
-                <p class="flex110 primary fontsize20 fontWeight700 lineHeight15">Speed racing</p>
-                <p class="flex330 white lineHeight15">Follow the fullspeed races on the amazing maps created by Skodriger20</p>
+            <div class="programStyle flex flexColumn">
+                <i class="width20 fa-solid fa-flag-checkered fa-2x"></i>
+                <p class="flex110 primary fontsize20 fontWeight700 lineHeight15 fs200">Speed racing</p>
+                <p class="flex330 white lineHeight15 fs80">Follow the fullspeed races on the amazing maps created by Skodriger20</p>
             </div>
-            <div class="programStyle flex">
-                <i class="width20 fa-solid fa-people-group"></i>
-                <p class="flex110 primary fontsize20 fontWeight700 lineHeight15">Fan contest</p>
-                <p class="flex330 white lineHeight15">Compete against the other fans in order to win gaming gear from our sponsors</p>
+            <div class="programStyle flex flexColumn">
+                <i class="width20 fa-solid fa-people-group fa-2x"></i>
+                <p class="flex110 primary fontsize20 fontWeight700 lineHeight15 fs200">Fan contest</p>
+                <p class="flex330 white lineHeight15 fs80">Compete against the other fans in order to win gaming gear from our sponsors</p>
             </div>
-            <div class="programStyle flex">
-                <i class="width20 fa-solid fa-flag-checkered"></i>
-                <p class="flex110 primary fontsize20 fontWeight700 lineHeight15">RPG racing</p>
-                <p class="flex330 white lineHeight15">Follow the RPG races on the world`s hardest maps</p>
+            <div class="programStyle flex flexColumn">
+                <i class="width20 fa-solid fa-flag-checkered fa-2x"></i>
+                <p class="flex110 primary fontsize20 fontWeight700 lineHeight15 fs200">RPG racing</p>
+                <p class="flex330 white lineHeight15 fs80">Follow the RPG races on the world`s hardest maps</p>
             </div>
-            <div class="programStyle flex">
-                <i class="width20 fa-solid fa-trophy"></i>
-                <p class="flex110 primary fontsize20 fontWeight700 lineHeight15">Awards</p>
-                <p class="flex330 white lineHeight15">Awards ceremony and closing meeting</p>
+            <div class="programStyle flex flexColumn">
+                <i class="width20 fa-solid fa-trophy fa-2x"></i>
+                <p class="flex110 primary fontsize20 fontWeight700 lineHeight15 fs200">Awards</p>
+                <p class="flex330 white lineHeight15 fs80">Awards ceremony and closing meeting</p>
             </div>
         </div>
         <div class="container1 flex justifyCenter">
-            <button class="white fontSize20 joinButton">Join the event</button>
+            <button class="white fontSize20 joinButton displayHideBig">Join the event</button>
+            <button class="white seeProgram displayNoneSmall">SEE THE WHOLE PROGRAM</button>
         </div>
     </section>
-    <section>
+    <section class="playerArea">
         <h3 class="playerList secondary">Player list</h3>
-        <div>
+        <div class="playerSection">
             <div class="flex">
-                <img class="playerImg" src="./wirtual.jpg">
+                <img class="playerImg" src="./img/wirtual.jpg" alt="player">
                 <div>
                     <p class="fontSize20 fontWeight700">Wirtual</p>
                     <p class="playerAchivement fontSize14 primary italic">Trackmania`s Best RPG Player</p>
-                    <p class="fontSize12 mRight20">Trackmania Content Creator & Streamer which holds multiple World records on RPC maps</p>
+                    <p class="playerDescription fontSize12 mRight20">Trackmania Content Creator & Streamer which holds multiple World records on RPC maps</p>
                 </div>
             </div>
-            <div class="flex">
-                <img class="playerImg" src="./wirtual.jpg">
+            <div class="playerCard">
+                <img class="playerImg" src="./img/player1.jpg" alt="player">
                 <div>
                     <p class="fontSize20 fontWeight700">PAC2</p>
                     <p class="playerAchivement fontSize14 primary italic">Trackmania`s Best Speed player</p>
-                    <p class="fontSize12 mRight20">TrackMania player for MNMGaming, World Champion in 2016, 3x GA winner, TMGL Fall 21 winner, 2nd Zrt 2019</p>
+                    <p class="playerDescription fontSize12 mRight20">TrackMania player for MNMGaming, World Champion in 2016, 3x GA winner, TMGL Fall 21 winner, 3rd Zrt 2019</p>
                 </div>
             </div>
-            <div class="flex justifyCenter">
+            <div class="playerCard">
+                <img class="playerImg" src="./img/player2.jpg" alt="player">
+                <div>
+                    <p class="fontSize20 fontWeight700">Mika</p>
+                    <p class="playerAchivement fontSize14 primary italic">Trackmania`s Best Speed player</p>
+                    <p class="playerDescription fontSize12 mRight20">TrackMania player for GRmotorsport, World Champion in 2017, TMGL Fall 20 winner, 1st Zrt 2019</p>
+                </div>
+            </div>
+            <div class="flex">
+                <img class="playerImg" src="./img/player3.jpg" alt="player">
+                <div>
+                    <p class="fontSize20 fontWeight700">MaX32</p>
+                    <p class="playerAchivement fontSize14 primary italic">Trackmania`s Best Speed player</p>
+                    <p class="playerDescription fontSize12 mRight20">TrackMania player for MomoRacing, World Champion in 2018, TMGL Fall 21 winner, 2nd Zrt 2021</p>
+                </div>
+            </div>
+            <div class="playerCard">
+                <img class="playerImg" src="./img/player4.jpg" alt="player">
+                <div>
+                    <p class="fontSize20 fontWeight700">ShibaRacer</p>
+                    <p class="playerAchivement fontSize14 primary italic">Trackmania`s Best Speed player</p>
+                    <p class="playerDescription fontSize12 mRight20">TrackMania player for XYdrifters, World Champion in 2019, 5x GA winner, TMGL Fall 21 winner, 1st Zrt 2020</p>
+                </div>
+            </div>
+            <div class="playerCard">
+                <img class="playerImg" src="./img/player5.jpg" alt="player">
+                <div>
+                    <p class="fontSize20 fontWeight700">Seredinsky</p>
+                    <p class="playerAchivement fontSize14 primary italic">Trackmania`s Best Speed player</p>
+                    <p class="playerDescription fontSize12 mRight20">TrackMania player for Skids, World Champion in 2020, TMGL Fall 21 winner, 2nd Zrt 2020</p>
+                </div>
+            </div>
+            <div class="flex justifyCenter displayHideBig">
                 <button class="moreBtn">MORE <i class="red fa-solid fa-angle-down"></i> </button>
             </div>
         </div>
+    </section>
+    <section class="backgroundGray displayNoneSmall">
+        <p class="textCenter fontSize24 lineHeight15 partnersHome tertiary">Partners</p>
+        <ul class="flex flexWrap justifyCenter listNone partnersList">
+            <li class="sponsor fontSize20 fontWeight700 tertiary ">Google</li>
+            <li class="sponsor fontSize20 fontWeight700 tertiary">Microsoft</li>
+            <li class="sponsor fontSize20 fontWeight700 tertiary">Facebook</li>
+            <li class="sponsor fontSize20 fontWeight700 tertiary">Audi</li>
+            <li class="sponsor fontSize20 fontWeight700 tertiary">Asus</li>
+        </ul>
+    </section>
+    <section class="grid3 displayNoneSmall">
+        <img src="./img/RSL.png" alt="logo">
+        <div class="flex flexAlignCenter lineHeight15">Romanian Esports League 2022<br> All rights reserved</div>
     </section>
 </body>
 </html>

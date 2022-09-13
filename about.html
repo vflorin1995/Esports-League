@@ -13,15 +13,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="flex">
-        <i class="hamburger fa-sharp fa-solid fa-bars fa-2x"></i>
-        <ul class="displayNone">
-            <li>About</li>
-            <li>Program</li>
-            <li>Join</li>
-            <li>Sponsor</li>
-            <li>News</li>
-            <li>REL Campaign</li>
+    <header class="displayNoneSmall">
+        <ul class="flex listNone headerItems">
+            <li><a href="#"><i class="fa-brands fa-facebook-f white"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter white"></i></a></li>
+            <li><a href="#" class="white">English</a></li>
+            <li><a href="#" class="white">My page</a></li>
+            <li><a href="#" class="white">Logout</a></li>
+        </ul>
+    </header>
+    <nav class="flex justifySpaceBetween flexAlignCenter">
+        <a href="index.html" class="navLogo displayNoneSmall"><img  src="./img/RSL.png" alt="logo"></a>
+        <i class="displayHideBig hamburger fa-sharp fa-solid fa-bars fa-2x"></i>
+        <ul class="listNone menuList">
+            <li><a class="primary" href="./about.html">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+            <li class="menuBorder"><a class="primary" href="#">REL Campaign</a></li>
         </ul>
     </nav>
     <section>
@@ -34,7 +44,7 @@
         <p class="textCenter fontSize24 aboutLogoTitle lineHeight15 mLeft20 mRight20">The Romanian Esports League 2022 Logo</p>
         <p class="aboutLogoTitleCompetition fontSize12 textCenter lineHeight15">The logo of The Romanian Esports League 2022 was decided through the logo competition from 8.June to 7.July.</p>
         <div class="logoImg">
-            <img src="./RSL.png">
+            <img src="./img/RSL.png">
         </div> 
     </section>
     <section>
@@ -53,16 +63,16 @@
     </section>
     <section class="backgroundGray">
         <p class="textCenter fontSize24 lineHeight15 partners white">Partners</p>
-        <ul class="flex flexWrap justifyCenter">
-            <li class="sponsor fontSize20 fontWeight700 white">Google</li>
+        <ul class="flex flexWrap justifyCenter listNone">
+            <li class="sponsor fontSize20 fontWeight700 white ">Google</li>
             <li class="sponsor fontSize20 fontWeight700 white">Microsoft</li>
             <li class="sponsor fontSize20 fontWeight700 white">Facebook</li>
             <li class="sponsor fontSize20 fontWeight700 white">Audi</li>
             <li class="sponsor fontSize20 fontWeight700 white">Asus</li>
         </ul>
     </section>
-    <section class="grid2">
-        <img src="./RSL.png">
+    <section class="grid3">
+        <img src="./img/RSL.png">
         <div class="flex flexAlignCenter">Romanian Esports League 2022<br> All right reserved</div>
     </section>
 </body>
