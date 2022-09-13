@@ -64,6 +64,14 @@ select {
     justify-content: center;
 }
 
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.flexAlignCenter {
+    align-items: center;
+}
+
 .flex110 {
     flex: 1 1 0;
 }
@@ -124,6 +132,10 @@ h2 {
 
 .fontSize24 {
     font-size: 24px;
+}
+
+.fontSize36 {
+    font-size: 36px;
 }
 
 .fontWeight700 {
@@ -222,5 +234,103 @@ h2 {
     padding-bottom: 16px;
     margin: 24px 16px;
     flex: 1;
+    background-color: rgb(248, 248, 248);
 }
 
+.textCenter {
+    text-align: center;
+}
+
+.welcomeTextAbout {
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+.aboutDescription {
+    background-color: white;
+    margin: 36px 16px 16px;
+    text-align: center;
+    padding: 18px 12px;
+}
+
+.aboutLogo {
+    margin-top: 24px;
+    background-color: white;
+}
+
+.aboutLogoTitle {
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.aboutLogoTitleCompetition {
+    margin: 0px 60px;
+}
+
+.logoImg {
+    border: solid black 2px;
+    margin: 16px 16px 24px;
+}
+
+.buc {
+    background-image: url(./img1.jpg);
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 210px;
+    padding: 0;
+    border: 0;
+    margin:0;
+}
+
+.bra {
+    background-image: url(./img2.jpg);
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 210px;
+    margin: 16px;
+    padding: 0;
+    border: 0;
+    margin:0;
+}
+
+.cityName {
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.cityNameText {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.backgroundGray {
+    background-color: #3c3f46;
+}
+
+.asa {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.sponsor {
+    padding: 0 16px 16px;
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.partners {
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font-weight: 900;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
