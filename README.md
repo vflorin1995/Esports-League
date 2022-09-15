@@ -28,7 +28,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Design of the project is based on Cindy Shin design on Behance.
+- Design of the project is based on [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) design on Behance.
 - All other images are free or belong to their respective owners.
 
 ## 📝 License

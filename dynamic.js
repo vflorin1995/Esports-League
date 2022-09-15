@@ -11,6 +11,9 @@ const playerListTitle = document.createElement('h3');
 playerListTitle.className = 'playerList secondary';
 playerListTitle.innerText = 'Player list';
 
+const hr = document.createElement('hr');
+hr.className = 'hr';
+
 const playerSection = document.createElement('div');
 playerSection.className = 'playerSection';
 
@@ -56,4 +59,4 @@ button.innerHTML = 'MORE <i class="red fa-solid fa-angle-down"></i> ';
 
 buttonContainer.appendChild(button);
 
-dynamic.append(playerListTitle, playerSection, buttonContainer);
+dynamic.append(playerListTitle, hr, playerSection, buttonContainer);
