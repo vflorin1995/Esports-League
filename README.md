@@ -2,7 +2,7 @@
 
 # Romanian Esports League 2022
 
-> This is a website created for the Romania Esports League 2022 competition.
+> This is a website created for the Romania Esports League 2022 competition, the biggest gaming competition in 2022.
 
 ## Live demo
 
